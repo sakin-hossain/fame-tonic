@@ -9,6 +9,8 @@
     --color-primary: #00e7f9;
     --color-secondary: #fc004e;
     --color-cyan: #10cbe0;
+    --color-gray: #a9a9a9;
+    --color-background: #010101;
     --text-22: 1.375rem;
     --text-35: 2.1875rem;
     --breakpoint-*: initial;
