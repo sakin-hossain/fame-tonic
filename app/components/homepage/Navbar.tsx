@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div className="relative">
-            <div className="flex justify-between items-center px-0 sm:px-6 md:px-8 lg:px-[211px] mt-[35px]">
+            <div className="flex justify-between items-center px-0 sm:px-6 md:px-8 lg:px-211 mt-35 relative z-30">
                 {/* Placeholder div for layout balance */}
                 <div className="w-6 h-6 lg:hidden"></div>
 
@@ -31,17 +31,17 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <ul className="hidden lg:flex gap-10 font-figtree text-lg leading-none font-semibold text-gray">
-                    <li className="cursor-pointer hover:text-gray-700 transition-colors duration-200">
+                    <li className="cursor-pointer hover:text-gray-500 transition-colors duration-200">
                         About us
                     </li>
-                    <li className="cursor-pointer hover:text-gray-700 transition-colors duration-200">
+                    <li className="cursor-pointer hover:text-gray-500 transition-colors duration-200">
                         Contact
                     </li>
                 </ul>
 
                 {/* Hamburger Menu Button */}
                 <button
-                    className="lg:hidden relative w-6 h-6 mr-[29px]"
+                    className="lg:hidden relative w-6 h-6 mr-29"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                 >
                     <div className="relative w-6 h-6 transition-opacity duration-300">
@@ -73,17 +73,17 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div
-                className={`lg:hidden absolute top-full left-0 right-0 bg-background shadow-lg overflow-hidden transition-all duration-300 ease-in-out ${
+                className={`lg:hidden absolute top-full left-0 right-0 bg-background shadow-lg overflow-hidden transition-all duration-300 ease-in-out z-50 mt-5 ${
                     isMenuOpen
                         ? "max-h-[200px] opacity-100"
                         : "max-h-0 opacity-0"
                 }`}
             >
                 <ul className="flex flex-col gap-4 font-figtree text-lg font-semibold text-gray p-4 items-center">
-                    <li className="cursor-pointer hover:text-gray-700 transition-colors duration-200 transform hover:translate-x-2">
+                    <li className="cursor-pointer hover:underline transition-colors duration-200 transform">
                         About us
                     </li>
-                    <li className="cursor-pointer hover:text-gray-700 transition-colors duration-200 transform hover:translate-x-2">
+                    <li className="cursor-pointer hover:underline transition-colors duration-200 transform">
                         Contact
                     </li>
                 </ul>
