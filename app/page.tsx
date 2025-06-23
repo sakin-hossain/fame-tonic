@@ -7,9 +7,11 @@ export default function Home() {
     return (
         <div>
             <AnnouncementBar />
-            <Navbar />
-            <HeroSection />
-            <Footer />
+            <div className="container mx-auto">
+                <Navbar />
+                <HeroSection />
+                <Footer />
+            </div>
         </div>
     );
 }

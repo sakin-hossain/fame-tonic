@@ -25,7 +25,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${urbanist.variable} ${figtree.variable} container mx-auto h-805 antialiased`}
+                className={`${urbanist.variable} ${figtree.variable} h-805 antialiased`}
             >
                 {children}
             </body>
