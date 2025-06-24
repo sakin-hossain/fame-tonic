@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className="relative">
             <div className="flex justify-between lg:items-start md:items-center items-center px-0 sm:px-6 md:px-8 lg:px-211 mt-35 relative z-30">
-                {/* Placeholder div for layout balance */}
+                {/* Placeholder div for layout balance for responsive */}
                 <div className="w-6 h-6 lg:hidden"></div>
 
                 {/* Centered Logo */}
