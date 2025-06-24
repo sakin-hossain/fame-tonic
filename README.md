@@ -1,4 +1,3 @@
-````markdown
 # 🟣 Fametonic — Next.js Frontend
 
 This project is the frontend implementation of the **Fametonic** design, built with **Next.js**, **Tailwind CSS**, and **TypeScript**. The UI is based on the Figma design provided [here](https://www.figma.com/design/aUwc1lyMdlrtwCsR33JeQ4/Fametonic-Open?t=6Y4sRIBQVdXyS4hP-0).
@@ -21,7 +20,6 @@ This project is the frontend implementation of the **Fametonic** design, built w
 git clone https://github.com/sakin-hossain/fame-tonic.git
 cd fametonic
 ```
-````
 
 ### 2. Install Dependencies
 
@@ -73,7 +71,3 @@ All UI components and layouts follow the [Figma design](https://www.figma.com/de
 **Md Sakin Hossain**
 Email: [info.sakinh@gmail.com](mailto:info.sakinh@gmail.com)
 [LinkedIn](https://linkedin.com/in/sakinh) • [GitHub](https://github.com/sakin-hossain)
-
-```
-
-```
