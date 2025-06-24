@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+````markdown
+# 🟣 Fametonic — Next.js Frontend
 
-First, run the development server:
+This project is the frontend implementation of the **Fametonic** design, built with **Next.js**, **Tailwind CSS**, and **TypeScript**. The UI is based on the Figma design provided [here](https://www.figma.com/design/aUwc1lyMdlrtwCsR33JeQ4/Fametonic-Open?t=6Y4sRIBQVdXyS4hP-0).
+
+---
+
+## 🚀 Tech Stack
+
+-   **Framework:** [Next.js](https://nextjs.org/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **Design:** Figma (Pixel-perfect implementation)
+
+---
+
+## 🔧 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/sakin-hossain/fame-tonic.git
+cd fametonic
+```
+
+````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the Development Server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔄 Scripts
 
-## Learn More
+-   `dev` – Run development server
+-   `build` – Build the project for production
+-   `start` – Start the production server
+-   `lint` – Run linter
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Figma Reference
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All UI components and layouts follow the [Figma design](https://www.figma.com/design/aUwc1lyMdlrtwCsR33JeQ4/Fametonic-Open?t=6Y4sRIBQVdXyS4hP-0) as closely as possible.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✅ Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   Fully responsive design
+-   Pixel-perfect layout matching Figma
+-   Optimized components with Tailwind CSS
+-   Modular and scalable codebase
+-   Clean and maintainable structure
+
+---
+
+## ✨ Author
+
+**Md Sakin Hossain**
+Email: [info.sakinh@gmail.com](mailto:info.sakinh@gmail.com)
+[LinkedIn](https://linkedin.com/in/sakinh) • [GitHub](https://github.com/sakin-hossain)
+````
