@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div className="relative">
-            <div className="flex justify-between items-center px-0 sm:px-6 md:px-8 lg:px-211 mt-35 relative z-30">
+            <div className="flex justify-between lg:items-start md:items-center items-center px-0 sm:px-6 md:px-8 lg:px-211 mt-35 relative z-30">
                 {/* Placeholder div for layout balance */}
                 <div className="w-6 h-6 lg:hidden"></div>
 
@@ -73,7 +73,7 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div
-                className={`lg:hidden absolute top-full left-0 right-0 bg-background shadow-lg overflow-hidden transition-all duration-300 ease-in-out z-50 mt-5 ${
+                className={`lg:hidden absolute top-full left-0 right-0 bg-background shadow-lg overflow-hidden transition-all duration-300 ease-in-out z-50 mt-7 ${
                     isMenuOpen
                         ? "max-h-[200px] opacity-100"
                         : "max-h-0 opacity-0"
