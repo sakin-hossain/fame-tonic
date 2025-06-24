@@ -1,5 +1,3 @@
----
-
 ````markdown
 # 🟣 Fametonic — Next.js Frontend
 
@@ -23,7 +21,6 @@ This project is the frontend implementation of the **Fametonic** design, built w
 git clone https://github.com/sakin-hossain/fame-tonic.git
 cd fametonic
 ```
-
 ````
 
 ### 2. Install Dependencies
@@ -76,4 +73,7 @@ All UI components and layouts follow the [Figma design](https://www.figma.com/de
 **Md Sakin Hossain**
 Email: [info.sakinh@gmail.com](mailto:info.sakinh@gmail.com)
 [LinkedIn](https://linkedin.com/in/sakinh) • [GitHub](https://github.com/sakin-hossain)
-````
+
+```
+
+```
